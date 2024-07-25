@@ -37,13 +37,17 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Frank And Oak"
-              description="It was a collaborative effort taken by 5 team members and it a clone of Frank And Oak femouse shopping website ."
+              description="It was a collaborative effort taken by 5 team members and it a clone of Frank And Oak femouse shopping website. Card creation from the backend data
+          sorting functions on price ASC and DSCE , responsiveness
+ ,   Admin Panel
+Authentication
+ "
               ghLink="https://github.com/AdityaSingh-byte/Frank-and-Oak"
               demoLink="https://frankandoak.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -52,9 +56,9 @@ function Projects() {
               ghLink="https://github.com/tashwini-p/StayBnB"
               demoLink="https://65db734b4e6242fb39b34caa--astonishing-florentine-67ecf3.netlify.app/"              
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,7 +67,7 @@ function Projects() {
               ghLink="https://github.com/RSarvjyoti/Behance"
               demoLink="https://github.com/RSarvjyoti/Behance"
             />
-          </Col>
+          </Col> */}
 
          
 
@@ -74,7 +78,7 @@ function Projects() {
               title="PetPals "
               description="This website is designed to facilitate the adoption of pets, such as dogs and cats, from shelters or rescue organizations. The platform serves as a digital marketplace where potential adopters can browse and select pets, shelters can list available pets, and donors can contribute to support animal welfare."
               ghLink="https://github.com/Sartik0709/Panasonic-Pioneers_062"
-             
+              demoLink="https://pet-petpals.netlify.app/"
             />
           </Col>
         </Row>
