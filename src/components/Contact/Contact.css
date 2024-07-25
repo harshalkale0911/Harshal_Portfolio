@@ -1,0 +1,85 @@
+/* Contact Section */
+.contact-section {
+  position: relative;
+  padding: 60px 20px;
+  background-image: var(--section-background-color);
+  color: white;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(20, 20, 30, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #c770f0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.contact-form textarea {
+  resize: none;
+  height: 120px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #c770f0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.contact-form button:hover {
+  background-color: #a24dd3;
+  transform: translateY(-3px);
+}
+
+.contact-form button:focus {
+  outline: none;
+}
+
+/* Wave Animation for Form Labels */
+@keyframes wave-animation {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+}
+
+.contact-heading span {
+  display: inline-block;
+  animation: wave-animation 2s infinite;
+}
