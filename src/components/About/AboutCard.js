@@ -8,16 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Harshal Kale </span>
-            from <span className="purple"> Maharashatra, India.</span>
+              I'm <span className="purple">Harshal Kale </span>
+             here from <span className="purple"> Maharashatra, India.</span>
             <br />
-            I am recently i completed the Full Stack Developer Course from Masai School . 
+            <br/>
+            Recently completed a Full Stack Developer Course from Masai School, and holds a Bachelor of Science in Computer Science from Rashtrasant Tukadoji Maharaj Nagpur University.
             <br />
-            I have completed Bsc in Computer Science from RASHTRASANT TUKADOJI MAHARAJ NAGPUR UNIVERSITY.
-            
+ 
             <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            In addition to coding, enjoys playing games and traveling.
           </p>
           <ul>
             <li className="about-activity">
